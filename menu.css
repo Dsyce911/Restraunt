@@ -1,0 +1,503 @@
+
+
+.section{
+  max-width: 960px;
+  margin: 20px 0px 0px 0px;
+  padding: 6% 2%;
+  display: inline;
+
+}
+
+.grid{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+  display: table-row-group;
+  text-align: center;
+  width: 100%;
+
+}
+
+.grid::after{
+  clear : both;
+}
+
+.grid::after, .box::before{
+content: "";
+display: table;
+
+}
+
+.grid li {
+  width: 328px;
+  height: 328px;
+  display:inline-block;
+  margin: 20px;
+
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+  position:  relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition:0.3 ease-in-out, -webkit-transform 0.3 ease-in-out;
+  -moz-transition:0.3 ease-in-out, -moz-transform 0.3 ease-in-out;
+  transition:0.3 ease-in-out, transform 0.3 ease-in-out;
+}
+
+.box:hover{
+  transform: scale(1.05);
+}
+.img1{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(sweet and sour pork.jpg);
+}
+
+.img2{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(../images/kung pao chicken.jpg);
+}
+
+
+  .img3{
+
+    background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+    url(ma po tofu.jpg);
+
+}
+
+.grid1{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+  display: table-row-group;
+  text-align: center;
+  width: 100%;
+
+}
+
+.grid1::after{
+  clear : both;
+}
+
+.grid1::after, .box1::before{
+content: "";
+display: table;
+
+}
+
+.grid1 li {
+  width: 328px;
+  height: 328px;
+  display:inline-block;
+  margin: 20px;
+
+}
+
+.box1{
+  width: 100%;
+  height: 100%;
+  position:  relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition:0.3 ease-in-out, -webkit-transform 0.3 ease-in-out;
+  -moz-transition:0.3 ease-in-out, -moz-transform 0.3 ease-in-out;
+  transition:0.3 ease-in-out, transform 0.3 ease-in-out;
+}
+
+.box1:hover{
+  transform: scale(1.05);
+}
+.img1{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(dumplings.jpg);
+}
+
+.img2{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(peking roasted duck.jpg);
+}
+
+
+  .img3{
+
+    background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+    url(spring rolls.jpg);
+
+}
+
+.grid2{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+  display: table-row-group;
+  text-align: center;
+  width: 100%;
+
+}
+
+.grid2::after{
+  clear : both;
+}
+
+.grid2::after, .box2::before{
+content: "";
+display: table;
+
+}
+
+.grid2 li {
+  width: 328px;
+  height: 328px;
+  display:inline-block;
+  margin: 20px;
+
+}
+
+.box2{
+  width: 100%;
+  height: 100%;
+  position:  relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition:0.3 ease-in-out, -webkit-transform 0.3 ease-in-out;
+  -moz-transition:0.3 ease-in-out, -moz-transform 0.3 ease-in-out;
+  transition:0.3 ease-in-out, transform 0.3 ease-in-out;
+}
+
+.box2:hover{
+  transform: scale(1.05);
+}
+.img1{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(dim sums.jpg);
+}
+
+.img2{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(hot and sour soup.jpg);
+}
+
+
+  .img3{
+
+    background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+    url(quick noodles.jpg);
+
+}
+
+.grid3{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+  display: table-row-group;
+  text-align: center;
+  width: 100%;
+
+}
+
+.grid3::after{
+  clear : both;
+}
+
+.grid3::after, .box3::before{
+content: "";
+display: table;
+
+}
+
+.grid3 li {
+  width: 328px;
+  height: 328px;
+  display:inline-block;
+  margin: 20px;
+
+}
+
+.box3{
+  width: 100%;
+  height: 100%;
+  position:  relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition:0.3 ease-in-out, -webkit-transform 0.3 ease-in-out;
+  -moz-transition:0.3 ease-in-out, -moz-transform 0.3 ease-in-out;
+  transition:0.3 ease-in-out, transform 0.3 ease-in-out;
+}
+
+.box3:hover{
+  transform: scale(1.05);
+}
+.img1{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(szechwan chilli chicken.jpg);
+}
+
+.img2{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(shitake fried rice  water chestnut.jpg);
+}
+
+
+  .img3{
+
+    background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+    url(chicken with chestnuts.jpg);
+
+}
+
+
+.grid4{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+  display: table-row-group;
+  text-align: center;
+  width: 100%;
+
+}
+
+.grid4::after{
+  clear : both;
+}
+
+.grid4::after, .box4::before{
+content: "";
+display: table;
+
+}
+
+.grid4 li {
+  width: 328px;
+  height: 328px;
+  display:inline-block;
+  margin: 20px;
+
+}
+
+.box4{
+  width: 100%;
+  height: 100%;
+  position:  relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition:0.3 ease-in-out, -webkit-transform 0.3 ease-in-out;
+  -moz-transition:0.3 ease-in-out, -moz-transform 0.3 ease-in-out;
+  transition:0.3 ease-in-out, transform 0.3 ease-in-out;
+}
+
+.box4:hover{
+  transform: scale(1.05);
+}
+.img1{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(wok tossed veggies in honey and bean glaze.jpg);
+}
+
+.img2{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(spinach noodles.jpg);
+}
+
+
+  .img3{
+
+    background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+    url(fried mashi.jpg);
+
+}
+
+.grid5{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+  display: table-row-group;
+  text-align: center;
+  width: 100%;
+
+}
+
+.grid5::after{
+  clear : both;
+}
+
+.grid5::after, .box5::before{
+content: "";
+display: table;
+
+}
+
+.grid5 li {
+  width: 328px;
+  height: 328px;
+  display:inline-block;
+  margin: 20px;
+
+}
+
+.box5{
+  width: 100%;
+  height: 100%;
+  position:  relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition:0.3 ease-in-out, -webkit-transform 0.3 ease-in-out;
+  -moz-transition:0.3 ease-in-out, -moz-transform 0.3 ease-in-out;
+  transition:0.3 ease-in-out, transform 0.3 ease-in-out;
+}
+
+.box5:hover{
+  transform: scale(1.05);
+}
+.img1{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(bbq meat.jpg);
+}
+
+.img2{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(cold vegetable.jpg);
+}
+
+
+  .img3{
+
+    background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+    url(stinky tofu.jpg);
+
+}
+
+
+.grid6{
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+  list-style: none;
+  display: table-row-group;
+  text-align: center;
+  width: 100%;
+
+}
+
+.grid6::after{
+  clear : both;
+}
+
+.grid6::after, .box6::before{
+content: "";
+display: table;
+
+}
+
+.grid6 li {
+  width: 328px;
+  height: 328px;
+  display:inline-block;
+  margin: 20px;
+
+}
+
+.box6{
+  width: 100%;
+  height: 100%;
+  position:  relative;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-transition:0.3 ease-in-out, -webkit-transform 0.3 ease-in-out;
+  -moz-transition:0.3 ease-in-out, -moz-transform 0.3 ease-in-out;
+  transition:0.3 ease-in-out, transform 0.3 ease-in-out;
+}
+
+.box6:hover{
+  transform: scale(1.05);
+}
+.img1{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(mutton stew.jpg);
+}
+
+.img2{
+  background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+  url(chinese hamburger.jpg);
+}
+
+
+  .img3{
+
+    background: linear-gradient(rgba(0, 0, 0, 50),rgba(0,0,0,10)),
+    url(cold mixed tofu and pineapple aloe vera.jpg);
+
+}
+
+.text-center{
+  color:black;
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+}

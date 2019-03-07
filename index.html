@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashie's Bistro</title>
+    <link rel="icon" href="images/restaurant-logo-favicon.png" type="image/png" sizes="16x16">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="restaurant.css">
+    <link rel="stylesheet" href="menu.css">
+
+  </head>
+  <body ng-app="restaurant" ng-strict-di>
+
+    <!-- Fixed position loading indicator -->
+    <loading class="loading-indicator"></loading>
+
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a href="index.html" class="pull-left visible-md visible-lg">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+
+            <div class="navbar-brand">
+              <a href="index.html"><h1>Dashie's Bistro</h1></a>
+              <p>
+              <img src="star1.jpg" alt="Kosher certification">
+              <span>Certified</span>
+              </p>
+            </div>
+
+
+          </div>
+
+          <div class="collapsible-menu">
+            <input type="checkbox" id="menu">
+           <label for="menu">Jump to</label>
+    <div class="menu-content">
+                  <span class="glyphicon glyphicon-home"></span> Home</a>
+              </li>
+              <li id="navMenuButton" ui-sref-active="active">
+                <a href="Menu.html">
+                  <br class="hidden-xs"> Menu</a>
+              </li>
+              <li>
+                <a href="About.html">
+                  <br class="hidden-xs"> About</a>
+              </li>
+              <li>
+                <a href="Awards.html">
+                  <br class="hidden-xs"> Awards</a>
+                </div>
+</div>
+                </header>
+                  <!-- navbar -->
+
+                  <div class="container">
+  <div class="jumbotron">
+
+  </div>
+
+
+<div class="middle-section">
+  <ul class="middle-grid">
+    <li>
+
+       <div class="middle-box img1">
+         <a href="Menu.html">
+           <h3 class="heading">Menu</h3>
+           <img src="menu.jpg" alt="Menu" height="250px" width="300"
+         </a>
+       </div>
+    </li>
+    <li>
+
+
+       <div class="middle-box img2">
+         <a href="Specials.html">
+           <h3 class="heading">Special</h3>
+           <img src="special.jpg" alt="Special" height="250px" width="300"
+         </a>
+       </div>
+    </li>
+    <li>
+
+       <div class="middle-box img3 ">
+         <a href="#">
+           <h3 class="heading">Map</h3>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.6785222249246!2d-76.71096514916331!3d39.36351610807098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sza!4v1548754502316" height="250" width="300" frameborder="0" style="border:0" allowfullscreen></iframe>"
+         </a>
+       </div>
+    </li>
+
+  </ul>
+</div>
+
+
+<!--footer-->
+
+
+<footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <section id="hours" class="col-sm-4">
+        <span>Hours:</span><br>
+        Sun-Thurs: 11:15am - 13:00pm<br>
+        Fri: 11:15am - 14:30pm<br>
+        Saturday Closed
+        <hr class="visible-xs">
+      </section>
+      <section id="address" class="col-sm-4">
+        <span>Address:</span><br>
+        7105 Reisterstown Road<br>
+        Baltimore, MD 21215
+        <p>* Delivery area within 3-4 miles, with minimum order of R20 plus R3 charge for all deliveries.</p>
+        <hr class="visible-xs">
+      </section>
+      <section id="testimonials" class="col-sm-4">
+        <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
+        <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
+      </section>
+    </div>
+    <div class="text-center">
+      &copy; Copyright Dashie's Bistro 2016 |
+      <a ui-sref="admin.auth">Admin</a></div>
+  </div>
+</footer>
+
+  </body>
+
+</html>
