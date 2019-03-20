@@ -2,14 +2,14 @@
 
 .section{
   max-width: 960px;
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 6% 2%;
   display: inline;
 
 }
 
 .grid{
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   padding: 0;
   list-style: none;
   display: table-row-group;
@@ -32,7 +32,7 @@ display: table;
   width: 328px;
   height: 328px;
   display:inline-block;
-  margin: 20px;
+  margin: 20px 40px 20px 40px;
 
 }
 
@@ -69,7 +69,7 @@ display: table;
 }
 
 .grid1{
-  margin: 20px 0px 0px 0px;
+  margin: 0px;
   padding: 0;
   list-style: none;
   display: table-row-group;
@@ -92,7 +92,7 @@ display: table;
   width: 328px;
   height: 328px;
   display:inline-block;
-  margin: 20px;
+  margin: 40px 50px 40px 50px;
 
 }
 
@@ -152,7 +152,7 @@ display: table;
   width: 328px;
   height: 328px;
   display:inline-block;
-  margin: 20px;
+margin: 40px 50px 40px 50px;
 
 }
 
@@ -212,7 +212,7 @@ display: table;
   width: 328px;
   height: 328px;
   display:inline-block;
-  margin: 20px;
+  margin: 40px 50px 40px 50px;
 
 }
 
@@ -273,7 +273,7 @@ display: table;
   width: 328px;
   height: 328px;
   display:inline-block;
-  margin: 20px;
+margin: 40px 50px 40px 50px;
 
 }
 
@@ -333,7 +333,7 @@ display: table;
   width: 328px;
   height: 328px;
   display:inline-block;
-  margin: 20px;
+margin: 40px 50px 40px 50px;
 
 }
 
@@ -394,7 +394,7 @@ display: table;
   width: 328px;
   height: 328px;
   display:inline-block;
-  margin: 20px;
+margin: 40px 50px 40px 50px;
 
 }
 
